@@ -18,20 +18,3 @@ $(document).ready(function() {
 		};
 	});
 });
-
-function doFizzBuzz(value) {
-	for (i = 0; i <= value; i++) {
-		if ( i % 3 == 0) {
-			i = "fizz";
-			console.log(i);
-		} else if ( i % 5 == 0 ) {
-			i = "buzz";
-			console.log(i);
-		} else if ( i % 3 == 0 && i % 5 == 0 ) {
-			i = "fizzbuzz";
-			console.log(i);
-		} else {
-			console.log(i);
-		};
-	};
-}
